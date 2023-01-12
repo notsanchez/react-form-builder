@@ -1,5 +1,5 @@
 {
-  "name": "notsanchez-react-form-builder2",
+  "name": "@notsanchez/notsanchez-react-form-builder2",
   "version": "0.14.3",
   "description": "A complete form builder for react.",
   "main": "lib/index.js",
