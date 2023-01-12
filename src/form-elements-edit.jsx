@@ -186,14 +186,6 @@ export default class FormElementsEdit extends React.Component {
                 <IntlMessages id="required" />
               </label>
             </div>
-            {this.props.element.hasOwnProperty('readOnly') &&
-              <div className="custom-control custom-checkbox">
-                <input id="is-read-only" className="custom-control-input" type="checkbox" checked={this_read_only} value={true} onChange={this.editElementProp.bind(this, 'readOnly', 'checked')} />
-                <label className="custom-control-label" htmlFor="is-read-only">
-                  <IntlMessages id="read-only" />
-                </label>
-              </div>
-            }
             {this.props.element.hasOwnProperty('defaultToday') &&
               <div className="custom-control custom-checkbox">
                 <input id="is-default-to-today" className="custom-control-input" type="checkbox" checked={this_default_today} value={true} onChange={this.editElementProp.bind(this, 'defaultToday', 'checked')} />

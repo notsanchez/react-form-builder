@@ -1,13 +1,13 @@
 {
   "name": "@notsanchez/notsanchez-react-form-builder2",
-  "version": "0.14.4",
+  "version": "0.14.6",
   "description": "A complete form builder for react.",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notsanchez"
+    "url": "https://github.com/notsanchez"
   },
   "files": [
     "lib",
