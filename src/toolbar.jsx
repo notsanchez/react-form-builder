@@ -446,8 +446,7 @@ class Toolbar extends React.Component {
   render() {
     const { items, grouped, groupKeys } = buildGroupItems(this.state.items);
     return (
-      <div className="col-md-3 react-form-builder-toolbar float-right">
-        <h4>{this.props.intl.formatMessage({ id: 'toolbox' })}</h4>
+      <div className="col-md-3 bg-danger react-form-builder-toolbar float-right">
         <ul>
           {
             items.map(this.renderItem)
