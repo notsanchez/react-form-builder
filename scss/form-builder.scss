@@ -197,7 +197,8 @@
           &.is-dragging {
             position: absolute;
             z-index: 1688;
-            border: 2px #ccc dashed;
+            border: 2px dashed #ff6816;
+            border-radius: 10px;
             background: #fff;
             cursor: move;
             padding: 10px 20px;
@@ -208,7 +209,8 @@
           display: block;
           z-index: auto;
           opacity: .4;
-          border: 2px #ccc dashed;
+          border: 2px dashed #ff6816;
+          border-radius: 10px;
         }
 
         .toolbar-header {
@@ -474,7 +476,8 @@
 
 .form-place-holder {
   margin: 10px;
-  border: 2px dashed #bbb;
+  border: 2px dashed #ff6816;
+  border-radius: 10px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;

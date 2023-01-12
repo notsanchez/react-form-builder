@@ -1,7 +1,8 @@
-import React,{ useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const boxStyles = {
-    border: '1px dashed gray',
+    border: '2px dashed #ff6816',
+    borderRadius: '10px',
     padding: '0.5rem 1rem',
     cursor: 'move',
 };

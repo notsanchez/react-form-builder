@@ -446,7 +446,7 @@ class Toolbar extends React.Component {
   render() {
     const { items, grouped, groupKeys } = buildGroupItems(this.state.items);
     return (
-      <div className="col-md-3 react-form-builder-toolbar float-right">
+      <div className="col-md-3 bg-dark py-2 react-form-builder-toolbar float-right rounded mr-4 mt-2">
         <ul>
           {
             items.map(this.renderItem)

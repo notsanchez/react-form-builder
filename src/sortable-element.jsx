@@ -5,7 +5,8 @@ import { DragSource, DropTarget } from 'react-dnd';
 import ItemTypes from './ItemTypes';
 
 const style = {
-  border: '1px dashed gray',
+  border: '2px dashed #ff6816',
+  borderRadius: '10px',
   padding: '0.5rem 1rem',
   marginBottom: '.5rem',
   backgroundColor: 'white',
